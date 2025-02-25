@@ -74,11 +74,9 @@ const App = () => {
             <nav className="navbar">
                 <div className="logo">MACHINA</div>
                 <ul className="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#experience"></a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><button className="nav-button">Home</button></li>
+                    <li><button className="nav-button">Experience</button></li>
+                    <li><button className="nav-button">Contact</button></li>
                 </ul>
             </nav>
             <section className="hero">
@@ -90,12 +88,12 @@ const App = () => {
                     <h1>Mach-E Machina</h1>
                     <p>Redefine Velocity</p>
                     <blockquote className="hero-quote">
-                        <strong></strong>
+                        <strong>Luxury without limits, ruggedness without compromise—Machina redefines the wild with zero-emission might.</strong>
                     </blockquote>
-                    <button className="discover-btn" onClick={() => document.getElementById('mache.png').scrollIntoView({ behavior: 'smooth' })}>Discover</button>
+                    <button className="discover-btn" onClick={() => document.getElementById('mache-image').scrollIntoView({ behavior: 'smooth' })}>Discover</button>
                 </div>
             </section>
-            <section id="mache.png" className="half-screen-image">
+            <section id="mache-image" className="half-screen-image">
                 <blockquote className="image-quote-left">
                     <strong>Luxury without limits, ruggedness without compromise—Machina redefines the wild with zero-emission might.</strong>
                 </blockquote>

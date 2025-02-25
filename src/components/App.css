@@ -54,6 +54,20 @@ body {
     color: #D4A017;
 }
 
+.nav-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-button:hover {
+    color: #D4A017;
+}
+
 /* Hero Section */
 .hero {
     position: relative;
