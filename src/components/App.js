@@ -88,7 +88,7 @@ const App = () => {
                     <h1>Mach-E Machina</h1>
                     <p>Redefine Velocity</p>
                     <blockquote className="hero-quote">
-                        <strong>Luxury without limits, ruggedness without compromise—Machina redefines the wild with zero-emission might.</strong>
+                        
                     </blockquote>
                     <button className="discover-btn" onClick={() => document.getElementById('mache-image').scrollIntoView({ behavior: 'smooth' })}>Discover</button>
                 </div>
